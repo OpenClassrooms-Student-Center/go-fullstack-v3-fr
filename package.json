@@ -1,14 +1,23 @@
 {
   "name": "go-fullstack-v3-fr",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "start": "npx http-server . -p 4200 -P \"http://localhost:4200?\""
+    "start": "npx http-server . -p 4200 -P \"http://localhost:4200?\"",
+    "test": "echo\"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "http-server": "^13.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenClassrooms-Student-Center/go-fullstack-v3-fr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenClassrooms-Student-Center/go-fullstack-v3-fr/issues"
+  },
+  "homepage": "https://github.com/OpenClassrooms-Student-Center/go-fullstack-v3-fr#readme",
+  "description": ""
 }
